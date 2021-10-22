@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+#newspaper {
+    margin: 5px;
+    float: left;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #09394A;
+    opacity: 0.9;
+    filter: drop-shadow(0px 5px 5px);
+}
+#title{
+    width: fit-content;
+    height: 60px;
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    float: right;
+}
+nav ul li{
+    margin: 0px;
+    padding: 0px;
+    margin-right: 100px;
+    margin-top: 23px;
+    float: right;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    transition: color 250ms;
+}
+nav ul li a:hover {
+    color: #1ebcf4;
+}
+#contact-box{
+    width: 500px;
+    background-color: lightgray;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+}
+form{
+    margin: 30px;
+}
+.input-field{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 10px;
+    outline: none;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.button{
+    width: 100%;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #09394A;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: color 400ms;
+}
+.button:hover{
+    background-color: rgb(66, 94, 126);
+}
+#map-box{
+    width: 500px;
+    background-color: lightgray;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 15px;
+}
+#map-box iframe{
+    width: 400px;
+    height: 320px;
+    border: none;
+    padding: 50px;
+    top: 0%;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+    /* position: absolute; */
+}
