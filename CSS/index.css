@@ -3,6 +3,8 @@ body{
     padding: 0;
     background-color: #ffffff;
 }
+
+/* Title and Navbar Elements */
 #newspaper {
     margin: 5px;
     float: left;
@@ -56,6 +58,8 @@ nav ul li a:hover {
 #sections table tr th:hover{
     color: #1ebcf4;
 }
+
+/* Hero image */
 #hero{
     width: 100%;
     height: auto;
@@ -63,17 +67,27 @@ nav ul li a:hover {
 #hero img{
     width: 100%;
 }
+
+/* Article/image gallery */
 .flexbox-container{
     display: flex;
 }
-.article{
-    padding: 5px 2%;
-    background-color: white;
-    transition: color 400ms;
+.gallery-image{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
-.article:hover{
-    background-color: #f5f5f5;
+div.gallery-image img {
+    width: 100%;
+    height: auto;
+  }
+.gallery-description{
+    padding: 15px;
+    text-align: center;
 }
+
+/* Footer with social media links */
 #footer {
     width: 100%;
     bottom: 0px;
@@ -93,3 +107,9 @@ nav ul li a:hover {
 #socials table th td{
     text-align: center;
 }
+
+/* #9e7258 Leather Brown */
+/* #769e58 Complementary Green */
+/* #585a9e Complementary Purple */
+/* #f3af87 50% Lighter */
+/* #493529 50% Darker */
