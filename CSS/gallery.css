@@ -1,0 +1,164 @@
+/* COLOR PALETTE */
+/* #9e7258 Leather Brown */
+/* #769e58 Complementary Green */
+/* #585a9e Complementary Purple */
+/* #f3af87 50% Lighter */
+/* #493529 50% Darker */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Navbar Elements */
+#newspaper {
+    margin: 5px;
+    float: left;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #9e7258;
+    opacity: 0.9;
+    filter: drop-shadow(0px 5px 5px);
+}
+
+#title{
+    width: fit-content;
+    height: 60px;
+    float: left;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    float: right;
+}
+
+nav ul li{
+    margin: 0px;
+    padding: 0px;
+    margin-right: 100px;
+    margin-top: 23px;
+    float: right;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    transition: color 250ms;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+#sections{
+    background-color: #f3af87;
+    padding: 5px 2%;
+    filter: drop-shadow(0px 5px 5px);
+}
+
+#sections table tr th{
+    transition: color 250ms;
+}
+
+#sections table tr th:hover{
+    color: #ffffff;
+}
+
+
+/* Gallery elements */
+#vertical-gallery{
+    margin: 0;
+    padding: 0;
+}
+
+#horizontal-gallery{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: left;
+}
+
+.gallery{
+    border: 2px solid #f3af87;
+}
+
+.gallery:hover {
+    border: 2px solid #9e7258;
+}
+
+.gallery1{
+    margin: 5px;
+    padding: 0;
+    min-height: 300px;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.gallery1 img{
+    height: 300px;
+    width: auto;
+}
+
+.desc1 {
+    height: 270px;
+    width: auto;
+    padding: 15px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.gallery2 {
+    margin: 5px;
+    float: left;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery2 img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.desc2 {
+    padding: 15px;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.readmore{
+    display: inline;
+}
+
+
+@media (max-width: 1000px) {
+    .desc2{
+        padding: 10px;
+        font-size: 0.75em;
+    }
+}
+
+@media (max-width: 500px) {
+    .desc2{
+        padding: 5px;
+        font-size: 0.5em;
+    }
+}
+
+/* Footer Elements */
