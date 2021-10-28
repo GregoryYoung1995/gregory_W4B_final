@@ -1,7 +1,11 @@
-body {
+body{
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
 }
+
 #heading {
     text-align: center;
     margin: 0;
