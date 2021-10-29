@@ -141,7 +141,15 @@ header{
     background-color: #f4f4f4;
 }
 
+.desc1 a{
+    text-decoration: none;
+}
 
+.desc1 button{
+    background-color: #ffffff;
+    border-width: 1px;
+    border-radius: 3px;
+}
 
 .gallery2 {
     margin: 5px;
@@ -164,6 +172,16 @@ header{
     background-color: #f4f4f4;
 }
 
+.desc2 a{
+    text-decoration: none;
+}
+
+.desc2 button{
+    background-color: #ffffff;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
 .readmore{
     display: inline;
 }
@@ -174,15 +192,6 @@ footer{
     margin: 50 0 0 0;
     padding: 50 0 50 0;
     background-color: #000000;
-}
-
-#socialize{
-    color: #ffffff;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-weight: 700;
-    font-size: 3em;
 }
 
 #socials{
@@ -197,6 +206,18 @@ footer{
     margin: 0.5em 1em 0.5em 1em;
     color: #ffffff;
     transition: color 200ms;
+}
+
+#image-authors{
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 50 0 0 0;
+    font-weight: 400;
+}
+
+#image-authors a{
+    color: #ffffff;
 }
 
 #socials a i:hover{
